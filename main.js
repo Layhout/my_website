@@ -10,12 +10,12 @@ btnOpen.addEventListener("click", () => {
 });
 
 btnClose.addEventListener("click", () => {
-    menu.classList.toggle("nav_opened");
+    menu.classList.remove("nav_opened");
 });
 
 menuLinks.forEach(l => {
     l.addEventListener("click", () => {
-        menu.classList.toggle("nav_opened");
+        menu.classList.remove("nav_opened");
         l.classList.add("active_link");
         l.querySelector("#underline").classList.add("underline_active");
     })
