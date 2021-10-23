@@ -126,3 +126,6 @@ AOS.init({
     once: false,
     offset: 0,
 });
+
+// copy right statement
+document.querySelector("#copyRight_Statement").innerHTML += ` ${new Date().getFullYear()} Chea Layhout. All right reserved`;
